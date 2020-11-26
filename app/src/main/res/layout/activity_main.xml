@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back5">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="188dp"
+        android:layout_height="123dp"
+        android:src="@drawable/erc" />
+
+    <TextView
+        android:id="@+id/txt_slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eradicting Pollution.."
+        android:textColor="@color/green"
+        android:textStyle="italic"
+        android:layout_marginLeft="80dp"/>
+
+    <TextView
+        android:id="@+id/txt_slogan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enruching Environment.."
+        android:textColor="@color/green"
+        android:textStyle="italic"
+        android:layout_marginLeft="80dp"/>
+
+</LinearLayout>

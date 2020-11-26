@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">EarthRecycler</string>
+    <string name="title_activity_recycle_home">RecycleHome</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <array name="teams">
+        <item>Avengers</item>
+        <item>X Men</item>
+        <item>Justice League</item>
+    </array>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_dealer_home">DealerHome</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="button_send">Add Employee</string>
+    <string name="gender_unknown">Unknown</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="server_client_id">859462463422-mtn0okinbapcknpng32kl108b50v8gah.apps.googleusercontent.com</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_admin_map">Map</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="LoginGet">Login - Get</string>
+    <string name="LoginPost">Login - Post</string>
+    <string name="App">Login Application</string>
+    <string name="LoginStatus">Login Status</string>
+    <string name="LoginRole">Login Role</string>
+    <string name="Status">Not login</string>
+    <string name="Role">Not assigned</string>
+    <string name="method">Login Method</string>
+    <string name="Choose">Choose Method</string>
+
+
+</resources>

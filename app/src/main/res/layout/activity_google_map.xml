@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context=".GoogleMap">
+
+
+    <EditText
+        android:id="@+id/textViewId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Longitude"
+        android:inputType="text"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/textViewUsername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Longitude"
+        android:inputType="text"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Longitude"
+        android:visibility="gone"
+        android:inputType="text"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/textViewDesignation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Longitude"
+        android:inputType="text"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/bt_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get location"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="558dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp">
+
+        <EditText
+            android:id="@+id/text_view1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Latitude"
+            android:inputType="text"
+            android:visibility="gone"
+            tools:ignore="MissingConstraints" />
+
+
+        <EditText
+            android:id="@+id/text_view2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Longitude"
+            android:visibility="gone"
+            android:inputType="text"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/text_view3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Country Name"
+            android:visibility="gone"
+            android:inputType="text"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/text_view4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Locality"
+            android:visibility="gone"
+            android:inputType="text"
+            tools:ignore="MissingConstraints" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+        <EditText
+            android:id="@+id/text_view5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Address"
+            android:visibility="gone"
+            android:inputType="text"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/google_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        />
+</LinearLayout>

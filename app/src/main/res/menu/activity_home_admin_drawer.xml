@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_add_client"
+            android:icon="@drawable/ic_client_add"
+            android:title="Add Clients" />
+        <item
+            android:id="@+id/nav_work_update"
+            android:icon="@drawable/ic_work_update"
+            android:title="Work Updates" />
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/ic_attendance"
+            android:title="Attendance" />
+        <item
+            android:id="@+id/nav_truck_track"
+            android:icon="@drawable/ic_truck_track"
+            android:title="Truck Tracking"/>
+        <item
+            android:id="@+id/nav_truck_schedule"
+            android:icon="@drawable/ic_truck_schedule"
+            android:title="Truck Scheduling"/>
+        <item
+            android:id="@+id/nav_sale_update"
+            android:icon="@drawable/ic_sales_update"
+            android:title="Sales Update"/>
+        <item
+            android:id="@+id/nav_expense_update"
+            android:icon="@drawable/ic_expense_update"
+            android:title="Expense Update"/>
+        <item
+            android:id="@+id/nav_work_assign"
+            android:icon="@drawable/ic_work_assign"
+            android:title="Work Assign"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout"/>
+
+    </group>
+
+</menu>

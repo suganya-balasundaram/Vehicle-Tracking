@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lic.myearth">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/erc"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Edit_Clients_Activity"></activity>
+        <activity android:name=".DetailClientsActivity" />
+        <activity android:name=".Edit_truckschedule_Activity" />
+        <activity android:name=".DetailScheduleActivity" />
+        <activity android:name=".Edit_Expense_Activity" />
+        <activity android:name=".DetailActivity" />
+        <activity
+            android:name=".ExpenseUpdateDetail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Clients"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Expenseupdate" />
+        <activity
+            android:name=".TruckScheduling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".OtherUser" />
+        <activity
+            android:name=".DrawerExample"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminDashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddClients"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AddEmp" />
+        <activity android:name=".AdminDashboardDetails" />
+        <activity android:name=".DashboardDetails" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".DeleteClients" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".AdminMap" />
+        <activity android:name=".AdminTrack" />
+        <activity android:name=".DriversDetails" />
+        <activity android:name=".ExampleGoogle" />
+        <activity android:name=".DriverData" />
+        <activity android:name=".GoogleMap" />
+        <activity android:name=".Demo" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".Attendance" />
+        <activity android:name=".AddNewDriver" />
+        <activity
+            android:name=".EmployeeRegister"
+            android:label="@string/button_send"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeAdmin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LoginPage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
